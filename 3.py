@@ -4,7 +4,7 @@ import pandas as pd
 def initialize():
     connection = psycopg2.connect(
         user = "postgres", #username that you use
-        password = "S@!2698mss", 
+        password = "********", 
         host = "localhost", 
         port = "5432", 
         database = "postgres"
